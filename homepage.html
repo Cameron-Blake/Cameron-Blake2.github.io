@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Set metadata -->
+  <meta charset="utf-8">
+  <!-- Responsive design meta tag -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cameron's Recipe Collection</title>
+   <!-- Link to external resources -->
+  <link href="https://fonts.googleapis.com/css?family=Oswald:300,700|Varela+Round" rel="stylesheet">
+  <!-- Link to CSS files -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+<main>
+<!-- Sectioning element -->
+  <header>
+  <!-- Grid layout -->
+    <div class="grid-example">
+	<!-- Navigation list -->
+      <ul>
+        <li><a href="homepage.html">Homepage</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="submissions.html">Submissions</a></li>
+		<!-- Hypertext links -->
+        <!-- Pseudo classes for links (handled in CSS) -->
+      </ul>
+	</div>
+  </header>
+
+  <div class="welcome">
+  <!-- Grouping content -->
+  <!-- Text-level elements (strong) -->
+    <h1><strong>Welcome</strong> to my favorite recipes!</h1>
+    <p>I'm looking forward to showing you my favorite meals and how to make them.</p>
+  </div>
+  <!-- Floating element (float-box class in CSS) -->
+  <div class="float-box">
+  <!-- Text-level element (i) -->
+    <p><i>*New recipes will be added soon*</i></p>
+  </div>
+  
+<!-- current day/time -->
+<div class="homepage-time">
+  <h3>Current Time:</h3>
+  <p id="currentTime"></p>
+</div>
+
+<!-- Math method -->
+<div class="homepage-tip">
+  <h3>Cooking Tip of the Moment:</h3>
+  <p id="tipBox"></p>
+</div>
+
+<!-- countdown function -->
+<div class="homepage-countdown">
+  <h3>New Recipes Arrive In:</h3>
+  <p id="countdownBox"></p>
+</div>
+
+<!-- JS alert -->
+<button onclick="welcomeAlert()" class="homepage-button">
+  Click for a Welcome Message
+</button>
+
+<script src="script.js"></script>
+
+	  
+</main>
+
+  <footer>
+  <!-- Character reference (&copy;) -->
+    <h3>Thank you for visiting my website! &copy; 2026</h3>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
